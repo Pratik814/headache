@@ -11,7 +11,6 @@
 
 <table>
 <tr>
-  <th>ID</th>
   <th>Task</th>
   <th>Actions</th>
 </tr>
@@ -22,7 +21,6 @@ $result = $conn->query("SELECT * FROM tasks");
 while ($row = $result->fetch_assoc()):
 ?>
 <tr>
-  <td><?= $row['id'] ?></td>
   <td><?= $row['title'] ?></td>
   <td>
     <a href="edit.php?id=<?= $row['id'] ?>">Edit</a> |
