@@ -9,7 +9,7 @@
 
 <br>
 
-<table border="1" cellpadding="10">
+<table>
 <tr>
   <th>ID</th>
   <th>Task</th>
